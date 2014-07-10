@@ -33,112 +33,136 @@
                   </ul>
               </nav>
           </header>
-          <h1 id="pref_center_header">EMAIL PREFERENCE CENTER</h1>
-          <h2>Email Subscriptions</h2>
+          <h1>EMAIL PREFERENCE CENTER</h1>
+          
                     
           <form action="#">
 
-          <section class="white_section"> 
-            <!-- EMAIL SUBSCRIPTIONS SECTION -->
-            <p>Please check the types of emails you’d like to receive:</p>
+            <h2>Email Subscriptions</h2>
+            <section class="white_section"> 
+              <!-- EMAIL SUBSCRIPTIONS SECTION -->
+              <p>Please check the types of emails you’d like to receive:</p>
 
-            <section class="check_box_container">
-              <input type="checkbox" id="c1" name="cc" />
-              <label for="c1"><span></span></label>
-              <section class="selection_text">
-                <strong>Make-A-Wish Foundation<sup class="regtm">&reg;</sup> Updates:</strong> Wish-granting <br />
-                and donation opportunities. <br />
-                <a href="#">View sample</a>
+              <section class="check_box_container">
+                <input type="checkbox" id="c1" name="cc" />
+                <label for="c1"><span></span></label>
+                <section class="selection_text">
+                  <strong>Make-A-Wish Foundation<sup class="regtm">&reg;</sup> Updates:</strong> Wish-granting <br />
+                  and donation opportunities. <br />
+                  <a href="#">View sample</a>
+                </section>
               </section>
-            </section>
 
-            <section class="check_box_container">
-              <input type="checkbox" id="c2" name="cc" />
-              <label for="c2"><span></span></label>
-              <section class="selection_text">
-                <strong>Wishnews<sup class="regtm">&reg;</sup>:</strong> A quarterly newsletter with special promotions, <br />
-                online auctions and news about the Foundation.<br />
-                <a href="#">View sample</a>
+              <section class="check_box_container">
+                <input type="checkbox" id="c2" name="cc" />
+                <label for="c2"><span></span></label>
+                <section class="selection_text">
+                  <strong>Wishnews<sup class="regtm">&reg;</sup>:</strong> A quarterly newsletter with special promotions, <br />
+                  online auctions and news about the Foundation.<br />
+                  <a href="#">View sample</a>
+                </section>
               </section>
-            </section>
 
-            <section class="check_box_container">
-              <input type="checkbox" id="c3" name="cc" />
-              <label for="c3"><span></span></label>
-              <section class="selection_text">
-                <strong>Wish of the Month:</strong> Uplifting stories from out wish kids.<br />
-                <a href="#">View sample</a>
+              <section class="check_box_container">
+                <input type="checkbox" id="c3" name="cc" />
+                <label for="c3"><span></span></label>
+                <section class="selection_text">
+                  <strong>Wish of the Month:</strong> Uplifting stories from out wish kids.<br />
+                  <a href="#">View sample</a>
+                </section>
               </section>
-            </section>
-            
-            <div class="horiz_gray_rule"></div>
-            
-            <section class="check_box_container">
-              <input type="radio" id="c4" name="cc" />
-              <label for="c4"><span></span></label>
-              <section class="selection_text">
-                Unsubscribe from all emails.
+              
+              <div class="horiz_gray_rule"></div>
+              
+              <section class="check_box_container">
+                <input type="radio" id="c4" name="email_frequency" />
+                <label for="c4"><span></span></label>
+                <section class="selection_text">
+                  Unsubscribe from all emails.
+                </section>
               </section>
+              <!-- EMAIL SUBSCRIPTIONS SECTION -->
             </section>
-            <!-- EMAIL SUBSCRIPTIONS SECTION -->
-          </section>
           
-          <h2>Email Frequency</h2>
-          
-          <section class="white_section"> 
-            <!-- EMAIL FREQUENCY SECTION -->
-            <p>
-              Please tell us how often you’d like to hear from <br />
-              Make-A-Wish Foundation: 
-            </p>
+            <h2>Email Frequency</h2>
+            <section class="white_section"> 
+              <!-- EMAIL FREQUENCY SECTION -->
+              <p>
+                Please tell us how often you’d like to hear from <br />
+                Make-A-Wish Foundation: 
+              </p>
 
-            <section class="check_box_container">
-              <input type="radio" id="c5" name="cc" />
-              <label for="c5"><span></span></label>
-              <section class="selection_text">
-                Contact me as often as you’d like!
+              <section class="check_box_container">
+                <input type="radio" id="c5" name="email_frequency" />
+                <label for="c5"><span></span></label>
+                <section class="selection_text">
+                  Contact me as often as you’d like!
+                </section>
               </section>
+
+              <section class="check_box_container">
+                <input type="radio" id="c6" name="email_frequency" />
+                <label for="c6"><span></span></label>
+                <section class="selection_text">
+                  Send me less (1 to 2 emails maximum per month.)
+                </section>
+              </section>
+
+              <section class="check_box_container">
+                <input type="radio" id="c7" name="email_frequency" />
+                <label for="c7"><span></span></label>
+                <section class="selection_text">
+                  Unsubscribe from all emails.
+                </section>
+              </section>
+
+              <!-- EMAIL FREQUENCY SECTION -->
             </section>
 
-            <section class="check_box_container">
-              <input type="radio" id="c6" name="cc" />
-              <label for="c6"><span></span></label>
-              <section class="selection_text">
-                Send me less (1 to 2 emails maximum per month.)
+            <h2>Your Information</h2>
+            <section class="white_section"> 
+              <!-- YOUR INFORMATION SECTION -->
+              <p><em>*Required fields.</em></p>
+              
+              <label for=fname><strong>First Name*</strong></label>
+              <input id=fname name=fname type=text placeholder=" John" required>
+
+              <label for=lname><strong>Last Name*</strong></label>
+              <input id=lname name=lname type=text placeholder="" required>
+
+              <label for=email><strong>Email Address*</strong></label>
+              <input id=email name=email type=text placeholder="" required>
+              <!-- gender select -->
+              <section class="check_box_container">
+                <strong style="margin-right:8px;">Gender:</strong>
+                <input type="radio" id="c8" name="gender" />
+                <label for="c8"><span></span></label>
+                <section class="selection_text">Male</section>
+                <div style="margin-right:10px;"></div>
+                <input type="radio" id="c9" name="gender" />
+                <label for="c9"><span></span></label>
+                <section class="selection_text">Female</section>
               </section>
+
+              <div class="horiz_gray_rule_small"></div>
+              
+              <h5>Address</h5>
+              <label for=adress><strong>Street Address</strong></label>
+              <input id=adress name=adress type=text placeholder="">
+
+              <label for=city><strong>City</strong></label>
+              <input id=city name=city type=text placeholder="">
+
+              <label><strong>State</strong></label>
+               <select id="state">
+                 <option value = "1">WA</option>
+                 <option value = "2">two</option>
+                 <option value = "3">three</option>
+                 <option value = "4">four</option>
+               </select>
+
+              <!-- YOUR INFORMATION SECTION -->
             </section>
-
-            <section class="check_box_container">
-              <input type="radio" id="c7" name="cc" />
-              <label for="c7"><span></span></label>
-              <section class="selection_text">
-                Unsubscribe from all emails.
-              </section>
-            </section>
-
-            <!-- EMAIL FREQUENCY SECTION -->
-          </section>
-
-          <h2>Your Information</h2>
-
-          <section class="white_section"> 
-            <!-- YOUR INFORMATION SECTION -->
-            <p>
-              <em>*Required fields.</em>
-            </p>
-            
-            <label for=fname><strong>First Name*</strong></label>
-            <input id=fname name=fname type=text placeholder=" John" required>
-
-            <label for=lname><strong>Last Name*</strong></label>
-            <input id=lname name=lname type=text placeholder="" required>
-
-            <label for=email><strong>Email Address*</strong></label>
-            <input id=email name=email type=text placeholder="" required>
-
-
-            <!-- YOUR INFORMATION SECTION -->
-          </section>
 
           </form>
         </div><!-- wrapper end -->
