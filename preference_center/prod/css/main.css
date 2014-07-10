@@ -147,6 +147,42 @@ nav ul li a {
  
 }
 
+h1 {
+    margin: 46px auto 0px auto;
+    padding:30px 0px 0px 0px;
+    width:457px;
+    height:45px;
+    font-family: futura;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #439BD9),
+        color-stop(0.52, #3487C2)
+    );
+    background-image: -o-linear-gradient(bottom, #439BD9 0%, #3487C2 52%);
+    background-image: -moz-linear-gradient(bottom, #439BD9 0%, #3487C2 52%);
+    background-image: -webkit-linear-gradient(bottom, #439BD9 0%, #3487C2 52%);
+    background-image: -ms-linear-gradient(bottom, #439BD9 0%, #3487C2 52%);
+    background-image: linear-gradient(to bottom, #439BD9 0%, #3487C2 52%);
+
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
 h2 {
     position: relative;
     width: 443px;
@@ -158,9 +194,12 @@ h2 {
     color: #fff;
     background-color: #1380cd;
     text-shadow: 0px 1px 2px #bbb;
-    -webkit-box-shadow: 0px 2px 4px #888;
+    /*-webkit-box-shadow: 0px 2px 4px #888;
     -moz-box-shadow: 0px 2px 4px #888;
-    box-shadow: 0px 2px 4px #888;
+    box-shadow: 0px 2px 4px #888;*/
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 h2:before {
@@ -185,6 +224,13 @@ h2:after {
     border-width: 4px 4px;
     border-style: solid;
     border-color: #666 #666 transparent transparent;
+}
+
+h5 {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 15px;
+    margin:15px 0px 15px 0px;
 }
 
 input[type="checkbox"] {
@@ -227,49 +273,18 @@ input[type="text"] {
     margin:0px 0px 10px 0px;
 }
 
+input[type="select"] {
+    
+}
+
 label {
     display:block;
 }
 
+
 #wrapper {
   width:960px;  
   margin: 0 auto; 
-}
-
-#pref_center_header {
-    margin: 46px auto 0px auto;
-    padding:25px 0px 0px 0px;
-    width:457px;
-    height:54px;
-    font-family: futura;
-    font-size: 25px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #439BD9),
-        color-stop(0.52, #3487C2)
-    );
-    background-image: -o-linear-gradient(bottom, #439BD9 0%, #3487C2 52%);
-    background-image: -moz-linear-gradient(bottom, #439BD9 0%, #3487C2 52%);
-    background-image: -webkit-linear-gradient(bottom, #439BD9 0%, #3487C2 52%);
-    background-image: -ms-linear-gradient(bottom, #439BD9 0%, #3487C2 52%);
-    background-image: linear-gradient(to bottom, #439BD9 0%, #3487C2 52%);
-
-    -webkit-border-top-left-radius: 4px;
-    -webkit-border-top-right-radius: 4px;
-    -moz-border-radius-topleft: 4px;
-    -moz-border-radius-topright: 4px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-
-    -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    0px 1px 10px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         0px 1px 10px 0px rgba(50, 50, 50, 0.75);
 }
 
 .logo {
@@ -282,6 +297,9 @@ label {
     background-color: #ffffff;
     margin: 0px auto;
     padding: 10px 0px 16px 34px;
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 10px 0px rgba(50, 50, 50, 0.75);
 }
 
 .regtm{
@@ -316,6 +334,14 @@ label {
     height:1px;
     background-color: #999999;
     margin: 10px 0px 10px 0px;
+}
+
+.horiz_gray_rule_small {
+    width:253px;
+    height:1px;
+    background-color: #999999;
+    margin: 10px 0px 10px 10px;
+
 }
 
 /* ==========================================================================
