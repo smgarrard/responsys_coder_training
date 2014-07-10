@@ -273,9 +273,32 @@ input[type="text"] {
     margin:0px 0px 10px 0px;
 }
 
-input[type="select"] {
-    
+/*select {
+    padding:4px 10px 2px 2px;
+    border:1px solid #010101;
+}*/
+
+.styleSelect select {
+  background: transparent;
+  width: 168px;
+  padding: 5px 0px 0px 0px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
+  color: #000;
 }
+
+.styleSelect {
+  width: 62px;
+  height: 25px;
+  overflow: hidden;
+  background: url("../img/down_arrow_select.gif") no-repeat right #fff;
+  border: 2px solid #000;
+}
+
 
 label {
     display:block;
