@@ -36,7 +36,8 @@
           <h1>EMAIL PREFERENCE CENTER</h1>
           
                     
-          <form action="#">
+          <form id="" method="POST" action="">
+
 
             <h2>Email Subscriptions</h2>
             <section class="white_section"> 
@@ -72,7 +73,7 @@
                 </section>
               </section>
               
-              <div class="horiz_gray_rule"></div>
+              <div class="horiz-gray-rule"></div>
               
               <section class="check_box_container">
                 <input type="radio" id="c4" name="email_frequency" />
@@ -144,7 +145,7 @@
                 <section class="selection_text">Female</section>
               </section>
 
-              <div class="horiz_gray_rule_small"></div>
+              <div class="horiz-gray-rule-short"></div>
               
               <h5>Address</h5>
               <label for=adress><strong>Street Address</strong></label>
@@ -152,31 +153,94 @@
 
               <label for=city><strong>City</strong></label>
               <input id=city name=city type=text placeholder="">
+  
+              <section>
+                <section class="inline-section">
+                  <label style="width:62px;"><strong>State</strong></label>
+                  <div class="styleSelect" style="width: 62px; background-position:94%;">
+                    <select style="width:200px;">
+                      <option value="WA">WA</option>
+                      <option value="CA">CA</option>
+                      <option value="AZ">AZ</option>
+                    </select>
+                  </div>
+                </section>
 
-              <!-- <label><strong>State</strong></label>
-               <select id="state" type="select">
-                 <option value = "1">WA</option>
-                 <option value = "2">AR</option>
-                 <option value = "3">AZ</option>
-                 <option value = "4">CA</option>
-               </select> -->
+                <section class="inline-section">
+                  <label for=zipcode><strong>Zip Code*</strong></label>
+                  <input id=zipcode name=zipcode type=text placeholder="" required style="width:103px;">
+                </section>
 
-               <label><strong>State</strong></label>
-               <div class="styleSelect">
-                 <select>
-                   <option value="WA">WA</option>
-                   <option value="CA">CA</option>
-                   <option value="AZ">AZ</option>
-                 </select>
-               </div>
+                <section class="inline-section">
+                  <label><strong>Country</strong></label>
+                  <div class="styleSelect" style="width:123px; background-position:97%;">
+                    <select style="width:200px;">
+                      <option value="USA">USA</option>
+                      <option value="CANADA">CANADA</option>
+                      <option value="WHO">WHO</option>
+                      <option value="CARES">CARES</option>
+                    </select>
+                  </div>
+                </section>
+              </section>
+              
+              <div class="horiz-gray-rule-short"></div>
+
+
+              <h5>Birthday</h5>
+
+
+              <section>
+                <section class="inline-section">
+                  <label style="width:90px;"><strong>Month</strong></label>
+                  <div class="styleSelect" style="width: 90px; background-position:96%;">
+                    <select style="width:200px;">
+                      <option value="">January</option>
+                      <option value="">February</option>
+                      <option value="">March</option>
+                      <option value="">April</option>
+                    </select>
+                  </div>
+                </section>
+
+                <section class="inline-section">
+                  <label><strong>Day</strong></label>
+                  <div class="styleSelect" style="width:53px; background-position:93%;">
+                    <select style="width:200px;">
+                      <option value="">01</option>
+                      <option value="">02</option>
+                      <option value="">03</option>
+                      <option value="">04</option>
+                    </select>
+                  </div>
+                </section>
+              </section>
+
+               <section class="check_box_container">
+                 <input type="radio" id="is-of-age" name="is_of_age" />
+                 <label for="is-of-age"><span></span></label>
+                 <section class="selection_text">
+                   I am at least 13 years of age.*
+                 </section>
+               </section>
+
+               <button type="submit">Submit</button>
 
               <!-- YOUR INFORMATION SECTION -->
             </section>
-
           </form>
+
+          <footer>
+            <small>
+              Copyright &copy; 2011 Make-A-Wish Foundation of America
+            </small>
+            <a href="#" class="privacy-link"><strong>Privacy Policy</strong></a>
+          </footer>
+
         </div><!-- wrapper end -->
 
 
+        
 
 
 
